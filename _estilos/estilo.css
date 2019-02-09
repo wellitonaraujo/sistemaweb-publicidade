@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto|Ubuntu');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+}
+
+/* Navegação Navbar */
+
+.navbar{
+    background: transparent !important;
+    transition: 0.5s;
+    height: 65px
+}
+.navbar.scrolled{
+    background: #25abe0 !important;
+    transition: 0.5s;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000000;
+    background: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,1); 
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(255,255,255,1); 
+}
+.row{
+    text-align: justify;
+    font-weight: 20px;
+    padding: 20px
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:visited {
+    color: rgba(255,255,255,1);
+}
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size: 25px;
+    color: slateblue !important;
+}
+
+.nav-link{
+    font-size: 18px;
+    margin: 7px;
+    /* color: black !important; */
+    font-family: 'Roboto'
+}
+.nav-link:hover{
+    color: #25abe0 !important;
+}
+
+.site-content{
+    background-image: url(../_imagens/capa-principal.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.titulo-site, .descricao-site{
+    color: white;
+    font-family: 'Righteous';
+}
+
+.titulo-site{
+    margin-top: 35%;
+    margin-bottom: 6%;
+    font-size: 85px;
+    letter-spacing: 10px
+}
+
+.descricao-site{
+    font-size: 14px;
+    padding-left: 15%;
+    /* letter-spacing: 5px */
+}
+
+.site-btn1{
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+}
+
+.site-btn2{
+    background-color: white;
+}
+.site-btn1, .site-btn2{
+    margin-top: 5%;
+    margin-bottom: 70%;
+}
+
+/* Primeira sessão */
+.primeira_sessao .primeiro-titulo-sessao-1{
+    margin-top: 8%;
+    font-size: 39px;
+}
+
+.primeira_sessao .paragrafo_sessao_1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.primeira_sessao .card-text, .paragrafo_sessao_1{
+    color: rgba(0, 0, 0, 0.59)
+}
+
+.primeira_sessao{
+    margin-bottom: 8%;
+}
+
+/* Segunda sessão */
+.segunda-sessao .container-fluid{
+    background-image: url(../_imagens/capa-secundaria.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* margin-bottom: 40%; */
+}
+
+.segunda-sessao .primeiro-titulo-sessao-2{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: 'Righteous';
+    width: 80%;
+    color: whitesmoke;
+}
+
+.segunda-sessao .primeiro-paragrafo-sessao-2{
+    width: 80%;
+    font-family: 'Ubuntu';
+    color: whitesmoke;
+    margin-bottom: 7%
+}
+
+.segunda-sessao .btn{
+    margin-bottom: 15%;
+    width: 20%;
+    font-size: 1em;
+    padding: 1%;
+}
+
+/* Quarta sessao */
+
+.quarta-sessao{
+    margin-top: 5%
+}
+
+.quarta-sessao .row .col-md-7, .col-md-5{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.quarta-sessao a{
+    color: lightseagreen;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.quarta-sessao a:hover{
+    color: #25abe0;
+}
+
+.quarta-sessao .primeiro-paragrafo{
+    color: white;
+    font-family: 'Roboto';
+    margin-top: 7%;
+    font-size: 23px;
+}
+
+/* Media querys */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Formulario e footer de testes */
+
+.contato{
+    position: relative;
+    /* padding: 20px 0; */
+   }
+
+   .contato .form-control{
+        height: 40px;
+        border: 1px solid #fff;
+   }
+   .contato{
+   
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 100vh;
+    background-image: url() !important;
+}
+
+.contato form{
+    z-index: 1000;
+    position: relative;
+    
+}
+.contato .form-control{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    height: 50px;
+    border-radius: 0;
+    /* background: rgba(0,0,0,.6); */
+    color: #fff;
+    font-size: 1.25rem
+
+}
+
+.contato .form-control:focus,
+.contato .form-control:hover{
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    box-shadow: none;
+    
+}
+.contato .textarea{
+    min-height: 100px
+}
+
+.contato label{
+    color: #fff;
+    font-size: 1.25rem
+}
+
+footer{
+
+    padding: 100px 0 30px;
+
+}
+
+.sci{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sci li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.sci li a {
+    color: #777777;
+    font-size: 1.5em;
+    transition: 0.5s
+}
+
+.sci li a:hover{
+    color: #fff;
+}
+
+.cpryt{
+    margin-top: 20px;
+    
+    color: #777777;
+    text-align: center;
+}
+
+   
